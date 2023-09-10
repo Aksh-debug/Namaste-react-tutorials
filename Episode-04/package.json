@@ -1,0 +1,38 @@
+{
+  "name": "react_tutorial",
+  "version": "1.0.0",
+  "description": "These are the react tutorials",
+  "scripts": {
+    "start":"parcel index.html",
+    "build":"parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aksh-debug/Namaste-react-tutorials.git"
+  },
+  "keywords": [
+    "react",
+    "tutorials",
+    "shobhit",
+    "rajawat"
+  ],
+  "author": "Shobhit Rajawat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aksh-debug/Namaste-react-tutorials/issues"
+  },
+  "homepage": "https://github.com/Aksh-debug/Namaste-react-tutorials#readme",
+  "devDependencies": {
+    "cosmiconfig": "^8.2.0",
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist":[
+    "last 2 versions"
+  ]
+}
