@@ -1,0 +1,167 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.logo{
+    width: 200px;
+    padding: 2px;
+}
+
+
+.nav-items > ul{
+    display: flex;
+    list-style-type: None;
+    justify-content: space-evenly;
+}
+
+.nav-items > ul >li{
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px; 
+} 
+
+.nav-items>ul>li:hover{
+    color: rgb(180, 138, 138);
+    cursor: pointer;
+}
+
+.nav-items{
+    margin-top: 25px;
+    width: 600px;
+}
+
+.search{
+    padding: 10px;
+}
+
+.res-card{
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+    height: auto;
+}
+
+.res-card:hover{
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: groove;
+}
+
+
+.res-logo{
+    width: 100%;
+    height: 200px;
+
+}
+
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.body{
+    background-color: rgb(180, 138, 138);
+}
+
+.filter-btn{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: rgb(85, 49, 122);
+    color: white;
+    border-color: rgb(85, 49, 122);
+    height: 42px;
+    margin-top: 20px;
+}
+
+.filter-btn:hover{
+    background-color: rgb(85, 49, 140);
+}
+
+.shimmer-search{
+    width: 200px;
+    margin: 10px;
+    height: 40px;
+    background-color: rgb(212, 210, 210);
+    border-radius: 5px;
+}
+
+.shimmer-card{
+    background-color: rgb(212, 210, 210);
+    height: 180px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.shimmer-detail1{
+    margin: 10px;
+    height: 20px;
+    width: 180px;
+    border-radius: 5px;
+    background-color: rgb(212, 210, 210);
+}
+
+
+.shimmer-detail2{
+    margin: 10px;
+    height: 20px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: rgb(212, 210, 210);
+}
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.login-btn{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 40px;
+    width: 80px;
+    margin-top: 10px;
+    background-color: rgb(250, 144, 22);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.login-btn:hover{
+    background-color: rgb(247, 165, 71);
+}
+
+.filter{
+    display: flex;
+}
+
+.search-btn{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(48, 24, 44);
+    border-color: rgb(48, 24, 44);
+    height: 42px;
+}
+
+.search-btn:hover{
+    background-color: rgb(66, 32, 60);
+}
+
+.search-box{
+    border-radius: 5px;
+    border: none;
+    height: 35px;
+    width: 200px;
+
+}
